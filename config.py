@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Don't Remove Credit Tg - @tnlinkshortner_bot
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
 # Ask Doubt on telegram @KingVJ01
 
 
@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
 # Ask Doubt on telegram @KingVJ01
 
 
@@ -26,7 +26,7 @@ def is_enabled(value, default):
         return default
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
@@ -35,18 +35,18 @@ API_HASH = environ.get("API_HASH", "d7aa913f93f7068094cd1cb51a50fc5a")
 ADMINS = int(environ.get("ADMINS", "5764304134"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://laptop7033:@qJa5+&9yU6@mb@@cluster0.eve7byu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "https://tnlinkshortner.xyz/")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://Sellomt:BwxLcAR2EREvgd30@cluster0.ltlulk2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+DB_URI = environ.get("DB_URI", "https://tnlinkshortner.xyz/")
+DB_NAME = environ.get("DB_NAME", "tnlinkshortner")
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "LinkfileshareMT_bot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "tnlinkshortner_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -54,12 +54,12 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002237156643"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002204161331')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
+# Ask Doubt on telegram @heyitsvimal
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -70,13 +70,13 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
+# Ask Doubt on telegram @heyitsvimal
 
 # File Stream Config
 class Var(object):
     MULTI_CLIENT = False
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', 'tnlinkshortner_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002237156643'))
@@ -100,7 +100,7 @@ class Var(object):
 
 
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @heyitsvimal
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@heyitsvimal
+# Ask Doubt on telegram @heyitsvimal
     
